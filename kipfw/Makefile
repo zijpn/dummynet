@@ -270,7 +270,7 @@ else # --- } {  linux 2.6 and newer
     ipfw-cflags += -DIPFW_PLANETLAB        # PlanetLab compilation
   endif
 
-  WARN := -O1 -Wall -Werror -DDEBUG_SPINLOCK -DDEBUG_MUTEXES
+  WARN := -O1 -Wall -DDEBUG_SPINLOCK -DDEBUG_MUTEXES
   # The main target
 
   # Required by GCC 4.6
